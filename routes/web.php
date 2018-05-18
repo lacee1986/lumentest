@@ -14,5 +14,9 @@
 /* @var $router \Laravel\Lumen\Routing\Router */
 
 $router->get('/', function () {
-    return view('templates.homepage');
+    return view('pages.homepage');
+});
+
+$router->get('about', function () {
+    return view('pages.about');
 });
