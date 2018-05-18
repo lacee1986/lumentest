@@ -1,5 +1,9 @@
 @extends('master')
 
 @section('content')
-    <h1>Homepage</h1>
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Homepage</h1>
+        </div>
+    </div>
 @endsection
