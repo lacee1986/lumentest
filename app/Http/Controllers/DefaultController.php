@@ -15,9 +15,7 @@ class DefaultController extends Controller
      */
     public function __construct(Request $request)
     {
-        dd('asd');
-        // Sharing is caring
-        View::share('currentPath', $request->path());
+        
     }
 
 }

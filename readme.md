@@ -19,3 +19,28 @@ If you discover a security vulnerability within Lumen, please send an e-mail to 
 ## License
 
 The Lumen framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+## Additional Information
+
+* Running
+``php -S localhost:8000 -t public``
+
+## Ideas
+
+Homepage:
+
+Form for region & server & name
+
+url structure: something.com/eu/server/name
+
+Infos:
+* Big picture
+* Current content:
+	- AP
+	- iLvl
+	- Flying progress
+	- Raid progress
+	- M+ progress
+* Overall:
+	- Achievements
+	- Reputations

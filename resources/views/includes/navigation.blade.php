@@ -1,4 +1,3 @@
-{{ $currentPath }}
 <ul class="nav nav-pills justify-content-center">
     <li class="nav-item">
         <a class="nav-link active" href="/">Homapage</a>

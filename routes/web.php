@@ -11,12 +11,13 @@
 |
 */
 
-/* @var $router \Laravel\Lumen\Routing\Router */
-
+// Homepage
 $router->get('/', function () {
     return view('pages.homepage');
 });
 
+
+// About 
 $router->get('about', function () {
     return view('pages.about');
 });
