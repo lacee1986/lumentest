@@ -35,7 +35,7 @@ class DefaultController extends Controller
 //        $response = $wow->getGuild('bloodscalp', 'hardcore casual', [
 //            'fields' => 'achievements,challenge',
 //        ]);
-        $response = $wow->getCharacter($server, $character);
+        $response = $wow->getCharacter($server, $character, array('fields'=>'feed'));
         //$response = $wow->getDataCharacterAchievements();
         // Accessing response status code
         $response->getStatusCode();
@@ -49,6 +49,9 @@ class DefaultController extends Controller
     public function getCharacter($region, $server, $character)
     {
         $stuff = $this->getData($region, $server, $character);
+        foreach ( $stuff->feed as $stuff ) {
+
+        }
         $this->viewData = [
             'test' => 'test',
             'api'  => $stuff
